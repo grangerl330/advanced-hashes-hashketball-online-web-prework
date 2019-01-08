@@ -239,7 +239,6 @@ end
 # Super Bonus:
 
 def long_name_steals_a_ton?
-  player = ""
   steals_tracker = 0 
   game_hash.each do |location, team_data|
     team_data[:players].each do |player_name, player_stats|
